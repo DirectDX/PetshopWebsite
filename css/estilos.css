@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+.header-container-top {
+  background-color: #222222;
+  color: #f3f3f3;
+  font-size: 10px;
+  width: 1300px;
+}
+.header-texto {
+  margin-right: 850px;
+  margin-left: 80px;
+}
+
+.header-lista {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.header-container-bottom {
+  background-color: #f0a83e;
+  height: 40px;
+  width: 1300px;
+
+}
+
+.logo {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.texto-logo-top {
+  color: #3c2313;
+}
+
+.nav-lista {
+  list-style: none;
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 600px;
+  margin-top: 10px;
+  float: left;
+}
+.lista-float-left {
+  float: left;
+  margin-left: 25px;
+}
+
+/* main */
+
+.bienvenida {
+  padding: 20px;
+  text-align: right;
+}
+/* parte del fondo verde */
+.contenedorFondo {
+  background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+  background-size: 1300px;
+  height: 550px;
+  background-repeat: no-repeat;
+}
+.contenedorDelTitulo {
+  background-color: #ffffff;
+  width: 420px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 750px;
+}
+.boton-comederos {
+  background-color: #f0a83e;
+  width: 150px;
+  height: 30px;
+  margin-left: 885px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+/* fin fondo verde */
+
+/* parte de los productos*/
+.parte-blanca{
+  background-color: #ffffff;
+  width: 1300px;
+  height: 1050px;
+}
+.patita-grande {
+  margin-left: 680px;
+  width: 80px;
+}
+.productos-destacados{
+  font-size: 40px;
+  font-weight: bold;
+  color: #3c2313;
+  text-align: center;
+  margin-left: 130px;
+}
+.serie-botones {
+  text-align: center;
+  margin-left: 130px ;
+  margin-top: 20px;
+
+}
+/* bes es la parte de Comederos - Accesorios - Productos */
+.bes{
+  margin-left: 10px;
+  margin-right: 5px;
+  font-weight: 100;
+}
+/* parte de los productos */
+.contenedor-contenedores{
+  height: 314px;
+}
+.cuadros-productos{
+  border-radius: 5px;
+  width: 265px;
+  height: 314px;
+  background-color: #FBFAF6;
+  float: left;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margen-cuadros {
+margin-left: 260px;
+}
+.titulo-prod {
+  text-align: center;
+  color: #3C2313;
+  margin-top: -10px;
+}
+.precio-prod {
+  text-align: center;
+  color: #f0a83e;
+}
+/* parte de contactanos */
+.contactanos {
+  text-align: center;
+  color: #3C2313;
+  margin-top: 200px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.cont-cuadros {
+  background-color: #3C2313;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 560px;
+  margin-bottom: 10px;
+}
+.cont-texto {
+  padding: 10px;
+  color: #f3f3f3;
+  font-weight:lighter;
+  font-size: smaller;
+}
+.margen-b {
+margin-bottom: 30px;
+}
+.b-resetear {
+border-radius: 20px;
+background-color: #8A8787;
+color: #ffffff;
+width: 130px;
+height: 20px;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 585px;
+font-size: 20px;
+text-align: center;
+}
+.b-enviar {
+  border-radius: 20px;
+  background-color:#f0a83e;
+  color: #ffffff;
+  width: 130px;
+  height: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+/* suscribete */
+.suscribete {
+  background-color: #f0a83e;
+  width: 1300px;
+  height: 60px;
+
+}
+.correo{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.p-suscribete{
+  color: #ffffff;
+  padding: 10px;
+  padding-bottom: 0px;
+  height: 60px;
+  width: 300px;
+  margin-right: 10px;
+  margin-top: -10px;
+  float: left;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.p-suscribet-margen{
+  margin-left: 10px;
+
+}
+.ingresa-correo{
+  background-color:#ffffff;
+  color: #8A8787;
+  width: 300px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 460px;
+  margin-top: 10px;
+  float: left;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+.b-suscribirme{
+  background-color:#3C2313;
+  color: #ffffff;
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+.parte-marron{
+  background-color: #3C2313;
+  width: 1300px;
+  height: 300px;
+}
+.margen-marron{
+  height: 30px;
+}
+.iconos-abajo {
+  margin-bottom: 15px;
+  margin-left: 60px;
+  height: 66px;
+  width: 300px;
+  float: left;
+  margin-right: 10000px;
+  display: flex;
+}
+.text-ico{
+color: #FBFAF6;
+font-size: larger;
+margin-top: 20px;
+margin-left: 20px;
+float: left;
+}
+.logo-abajo{
+  height: 30px;
+  margin-left: 800px;
+  margin-top: 15px;
+}
+.footer{
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #222222;
+  text-align: center;
+  width: 1300px;
+}
+
+
